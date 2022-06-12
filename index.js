@@ -15,7 +15,7 @@ app.get("/", function (req, res) {
 });
 
 app.post("/", function (req, res) {
-
+  console.log('a')
   var age = Number(req.body.age);
   var weight = Number(req.body.weight);
   var height = Number(req.body.height);
